@@ -80,7 +80,7 @@
 * Add 'formatDates' config option to add JsonFormat annotation on format "date" fields ([#699](https://github.com/joelittlejohn/jsonschema2pojo/issues/699))
 
 ## 0.4.32
-* org.jsonschema2pojo.ContentResolverTest require internet connection ([#704](https://github.com/joelittlejohn/jsonschema2pojo/issues/704))
+* ContentResolverTest require internet connection ([#704](https://github.com/joelittlejohn/jsonschema2pojo/issues/704))
 * Add option to specify custom fragment path delimiters ([#697](https://github.com/joelittlejohn/jsonschema2pojo/pull/697))
 * javaType doesn't work while setting  classNamePrefix = "SomePrefix" ([#650](https://github.com/joelittlejohn/jsonschema2pojo/issues/650))
 
@@ -183,7 +183,7 @@
 * Allow get/set methods to be disabled, use public fields instead ([#355](https://github.com/joelittlejohn/jsonschema2pojo/issues/355))
 
 ## 0.4.14
-* Fix 'Unable to load class org.jsonschema2pojo.NoopAnnotator' from Gradle plugin ([#395](https://github.com/joelittlejohn/jsonschema2pojo/pull/395))
+* Fix 'Unable to load class NoopAnnotator' from Gradle plugin ([#395](https://github.com/joelittlejohn/jsonschema2pojo/pull/395))
 * Library projects should use android.libraryVariants instead of android.applicationVariants  ([#391](https://github.com/joelittlejohn/jsonschema2pojo/pull/391))
 * Allow nullable type (instead of Object) when JSON type is an array with ["string", "null"] ([#390](https://github.com/joelittlejohn/jsonschema2pojo/issues/390))
 * Allow custom names to be supplied when creating an enum ([#385](https://github.com/joelittlejohn/jsonschema2pojo/issues/385))
